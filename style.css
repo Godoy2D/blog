@@ -5,39 +5,31 @@
     outline: none; border:none;
     text-decoration: none;
     text-transform: capitalize;
-    transition: .2s linear;
 }
 
+html,body{
+    height: 100%;
+}
 
-.menu{
-    float: top;
+.post{
+    max-width: 1250px;
+    margin: 0 auto;
+
+}
+
+.right{
+    float: right;
+    border: solid green 3px;
+}
+
+.left{
+    float: left;
     border: solid red 3px;
 }
 
-
-.principal{
-    text-align: center;
-    border: solid blue 3px;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    padding-left: 10px;
-}
-
-
-.infed{
-    float: right;
-    border: solid green 3px;
-    position:relative
-}
-
-
 .rodape{
-    border: solid black 3px;
-    position: relative;
-
+    
 }
-
 
 
 
